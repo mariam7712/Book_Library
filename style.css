@@ -1,0 +1,90 @@
+body {
+  background-color: #d1cfbe;
+}
+.book {
+  color: #424f43;
+  text-align: center;
+}
+.btn {
+  padding: 3px 15px;
+  background-color: #424f43;
+  border: 0;
+  color: white;
+}
+.hideme1 {
+  display: none;
+}
+.hideme2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+input {
+  width: 600px;
+  margin-bottom: 10px;
+}
+.hideme3 {
+  display: none;
+}
+.hideme4 {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+.progress {
+  text-align: center;
+  margin: 10px 0;
+  color: #424f43;
+}
+.hideme5 {
+  display: none;
+}
+.messghide,
+.messghidechar,
+.messghidenum,
+.messghide1,
+.messghide2,
+.messghidechar2,
+.messghide3,
+.messghideemail {
+  display: none;
+}
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-input {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
